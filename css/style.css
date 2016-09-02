@@ -1,8 +1,6 @@
 body {
     background-image: url(../img/bg.jpg);
     background-size: auto;
-    
-    
 }
 
 .main-wrapper {
@@ -14,18 +12,27 @@ body {
     margin-top: 38px;
 }
 header {
-    height: 176px;
+    height: 175px;
 }
 header>.logo {
     padding-top: 5px;
     padding-left: 25px;
 }
-.logo > img {
+.logo {
     width: 283px;
-    height: 164px;
+    height: 170px;
     float: left;
 }
-.contacts {
+.logo img {
+    
+    height: 170px;
+}
+.logo-right {
+    float: right;
+    display: block;
+}
+
+.contacts ul {
     float: right;
     padding-right: 25px;
     opacity: 0.8;
@@ -33,32 +40,56 @@ header>.logo {
     font-family: Tahoma;
     font-size: 12px;
     font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 .flag {
-    float: right;
+    clear: both;
+    padding-right: 25px;
 }
 .flag li {
     display: inline-block;
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.flag li:last-child {
+    padding-right: 0px;    
 }
 .flag li a {
     color: #128aa7;
     font-family: Tahoma;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 400;
     text-decoration: underline;
 }
+.flag img {
+    display: block;
+    margin: 0px auto;
+}
 .foto > img {
+    display: block;
     width: 1018px;
     height: 237px;
+    border-bottom: 1px solid #1294b3;
+    border-top: 1px solid #1294b3;
+    
 }
 nav {
     width: 1018px;
     height: 34px;
     background-color: #333;
+    vertical-align: middle;
+    border-bottom: 1px solid black;
+}
+
+nav a, .menu-down a{
     color: white;
     font-family: Tahoma;
     font-size: 14px;
     font-weight: 400;
+    
 }
 
 ul {
@@ -67,6 +98,30 @@ ul {
 nav li {
     display: inline-block;
     margin-left: 50px;
+    vertical-align: middle;
+   
+}
+.menu-down > ul {
+   display: block;
+     width: 150px;
+    height: 125px;
+}
+.menu-down li{
+    display: block;
+     width: 150px;
+    height: 25px;
+    background-color: #333;
+    padding-left: 10px;
+}
+.triangle-down {
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 8px solid white;
+    margin-left: 5px;
+    
 }
 div > .aside {
     background-color: #edeef0;
