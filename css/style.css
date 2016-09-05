@@ -101,17 +101,22 @@ nav li {
     vertical-align: middle;
    
 }
-.menu-down > ul {
+.menu-down ul {
    display: block;
-     width: 150px;
-    height: 125px;
+    
 }
-.menu-down li{
+.menu-down>li{
     display: block;
      width: 150px;
     height: 25px;
     background-color: #333;
     padding-left: 10px;
+}
+div .menu-down {
+    position: absolute;
+    margin-left: 0px;
+    width: 150px;
+    height: 125px;
 }
 .triangle-down {
     display: inline-block;
