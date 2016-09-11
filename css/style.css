@@ -89,11 +89,13 @@ nav a, .menu-down a{
     font-family: Tahoma;
     font-size: 14px;
     font-weight: 400;
+    vertical-align: middle;
     
 }
 
 ul {
     list-style-type: none;
+    vertical-align: middle;
 }
 nav li {
     display: inline-block;
@@ -101,22 +103,26 @@ nav li {
     vertical-align: middle;
    
 }
-.menu-down ul {
-   display: block;
+nav li i {
+    vertical-align: middle;
+}
+nav li li {
+    display: block;
+    width: 150px;
+    height: 25px;
+    margin-left: 0px;
+    padding-left: 10px;
     
 }
-.menu-down>li{
+
+ nav div {
     display: block;
-     width: 150px;
-    height: 25px;
-    background-color: #333;
-    padding-left: 10px;
-}
-div .menu-down {
     position: absolute;
-    margin-left: 0px;
+    margin-left: -10px;
+    margin-top: 5px;
     width: 150px;
     height: 125px;
+    background-color: #333;
 }
 .triangle-down {
     display: inline-block;
